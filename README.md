@@ -22,7 +22,7 @@
 - **👤 Profiles**: Extract Facebook profile information.
 - **💬 Comments**: Get post comments with sorting options (Most Relevant, Newest, All comments).
 - **🛡️ Anti-Bot Bypass**: Automatically handles CAPTCHAs, IP rotation, and headers.
-- **批量支持**: 大多数爬虫都支持批量模式，可一次性提交多个任务。
+- **Batch Support**: Most crawlers support batch mode, allowing multiple tasks to be submitted at once.
 
 ## 🚀 Quick Start
 
