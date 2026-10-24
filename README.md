@@ -21,7 +21,7 @@
 - **📅 Events**: Get events by event list URL, search URL, or events URL.
 - **👤 Profiles**: Extract Facebook profile information.
 - **💬 Comments**: Get post comments with sorting options (Most Relevant, Newest, All comments).
-- **🛡️ Anti-Bot Bypass**: Automatically handles CAPTCHAs, IP rotation, and headers.
+- **Managed Requests:** Uses Thordata's Web Scraper API for request handling and proxy management.
 - **Batch Support**: Most crawlers support batch mode, allowing multiple tasks to be submitted at once.
 
 ## 🚀 Quick Start
@@ -104,6 +104,31 @@ This scraper uses **Thordata's Web Scraper API (Hybrid Mode)**:
 This architecture ensures you **never get blocked** and receive clean, structured data.
 
 ---
+
+## What This Example Does Not Collect
+
+This repository is an example client for authorized Thordata Web Scraper API requests. It does not include Facebook login cookies, private account access, or browser session data.
+
+The example does not grant rights to collect, reuse, train on, or redistribute third-party Facebook content. Use it only for lawful and authorized workflows.
+
+Never place API keys, cookies, personal information, or private data in source files, logs, README files, or commits.
+
+## Failure Behavior
+
+Requests may fail because of invalid credentials, unsupported parameters, rate limits, endpoint restrictions, or temporary service errors.
+
+When a request fails, treat the response as an error rather than valid Facebook data. Check the terminal output and returned API response for details. Exact error codes and limits depend on the account and endpoint.
+
+## For Coding Assistants
+
+When modifying or running this example:
+
+- Read `.env.example` and keep credentials in environment variables.
+- Check the existing configuration before inventing scraper IDs or request parameters.
+- Preserve the current Web Scraper API request flow.
+- Never print or commit API keys, cookies, private URLs, or personal data.
+- Review returned post, event, profile, and comment data before sharing it.
+- Treat returned Facebook data as third-party data subject to applicable terms and usage restrictions.
 
 ## 📄 License
 
